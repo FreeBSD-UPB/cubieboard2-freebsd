@@ -144,7 +144,7 @@ options         BREAK_TO_DEBUGGER
 #options 	ROOTDEVNAME=\"ufs:/dev/da0\"
 options                MD_ROOT
 #options                MD_ROOT_SIZE=32720
-makeoptions            MFS_IMAGE=/root/clean-bhyve/bhyvearm/ramdisk/ramdisk.img
+makeoptions            MFS_IMAGE=/root/bhyvearm-utils/ramdisk/ramdisk.img
 options                ROOTDEVNAME=\"ufs:/dev/md0\"
 
 #FDT
